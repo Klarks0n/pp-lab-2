@@ -1,0 +1,89 @@
+# pp-lab-2
+public class Uczniowie 
+{
+    public static void main(String[] args)
+    {
+        int [] Uczniowie = new int [5];
+    }
+}
+public class Oceny 
+{
+    public static void main(String[] args)
+    {
+        int [] Oceny = new int [2];
+    }
+}
+import java.util.Scanner;
+public class SumaOcen
+{
+    public static void main(String[] args)
+    {
+        int [] [] Suma ocen = new int [5] [2];
+    }
+}
+import java.util.Scanner;
+public class ŚredniaOcen
+{
+    public static void main(String[] args)
+    {
+        System.out.println(SumaOcen);
+        for (int i = 0; i < ŚredniaOcen; i++)
+        {
+            for (int j = 0; j < cols; j++)
+            {
+                System.out.print(SumaOcen [5+i][2+j]);
+                tablica[i][j] = scanner.nextDouble();
+            }
+        }
+        double suma = 0;
+        int iloscElementow = rows * cols;
+        for (int i = 0; i < rows; i++) 
+        {
+            for (int j = 0; j < cols; j++) 
+            {
+                suma += tablica[i][j];
+            }
+        }
+        double srednia = suma / iloscElementow;
+        System.out.println("ŚredniaOcen: " + srednia);
+    }
+}
+public class WszystkieOCeny
+{
+    public static void main (String[] args)
+    {
+        Scanner scanner = new Scanner (system.in);
+        int m = Integer .parseInt(scanner.next());
+        int n = Integer .parseInt(scanner.next());
+
+        int [] [] WszystkieOceny = new int [m][n];
+        int liczba = 0;
+
+        for (int i = 0; i<=SumaOcen.lentgh - 1; i++)
+        {
+            for (int j = 0; j<=SumaOcen[i].length - 1; j++)
+            {
+                SumaOcen[i][j] = liczba;
+                liczba++;
+            }
+        }
+    }
+}
+public class SprzawdzanieOcen
+{
+    public static void main(String[] args)
+    {
+        if (ocena > 0 && ocena <= 6)
+        {
+            oceny.add(ocena);
+            System.out.println("Błędna ocena. Ocena musi być dodatnia i mniejsza lub równa 6.");
+        }
+    }
+}
+public class Mediana
+{
+    if (!oceny.isEmpty())
+    {
+        System.out.println("Mediana ocen: " + obliczMediane(oceny));
+    }
+}
